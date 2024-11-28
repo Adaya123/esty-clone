@@ -2,13 +2,14 @@
 
 import React from 'react'
 import { SearchVideos } from '@/Utils/fetchData'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import Image from 'next/image'
+import { SearchContext } from '@/Context/SearchContext'
 
 const Searchbar = () => {
-
+const { result, setResult } = useContext(SearchContext)
 const [ loading, setLoading ] = useState(false)
-const [ result, setResult ] = useState([])
+// const [ result, setResult ] = useState([])
 const [ query, setQuery ] = useState("")
 
 
