@@ -39,18 +39,6 @@ const handleSearch = async (e) => {
         loading ? <p>Loading....</p> : null
     }
 
-    {
-      result.map((a,c) =>
-        (
-        <div key= {c}>
-        <h1>{a.title}</h1>
-        <p>{a.number_of_views}</p>
-        <p>{a.video_length}</p>
-        <img src={a.thumbnails[0].url}
-          alt="image" />
-        </div>
-        )
-      )}
     
     </div>
   )
