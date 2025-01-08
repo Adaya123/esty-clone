@@ -1,17 +1,31 @@
 .container{
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .content{
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    width: 25%;
+    width: 31%;
 }
 .container img{
-    height: 181px;
+    height: 170px;
     width: 100%;
-
     border-radius: 10px;
     object-fit: cover;
+}.container img{
+    height: 170%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.container h1{
+    font-size: medium;
+    font-weight: 600;
+}
+.container p{
+    font-size: small;
+    font-weight: 600;
+    color: rgb(136, 132, 132);
 }
