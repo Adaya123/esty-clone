@@ -18,19 +18,31 @@ const Navbar = () => {
           <RxHamburgerMenu onClick={handleChange}/>
         </div>
       <YoutubeImage/>
-    </div>
+  
+
+<div className='nig'>
+  <h1>NG</h1>
+  </div>
+  </div>
     <div className='image_page'>
     <div>
       <Searchbar/>
     </div>
+    <div>
     <div className='image_page1'>
       <img src="./microphone.png" width={20} alt=""/>
     </div>
    </div>
    <div className='video'><img src="./VD.jpg" width={20} alt=""/>
    </div>
+   <div className='note'>
+    <img src="./notification.png" width={20} alt=""/>
+
+   </div>
+   </div>
    </div>
   )
+
 }
 
 export default Navbar

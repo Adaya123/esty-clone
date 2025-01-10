@@ -24,8 +24,23 @@ const MaxiSideBar = () => {
                 <image src='/see all'width={1} height={1} alt='image'/>
             </div>
             <div className={styles.like}>
-                <image src='/shorts.png'width={1} height={1} alt='image'/>
+                <image src='/history.png'width={1} height={1} alt='image'/>
                 <h1>History</h1>
+            </div>
+            <div className={styles.like}>
+                <image src='/playlisty.png'width={1} height={1} alt='image'/>
+                <h1>playlist</h1>
+            </div>
+            <div className={styles.like}>
+                <image src='/time.png'width={1} height={1} alt='image'/>
+                <h1>watch Later</h1>
+            </div>
+            <div className={styles.like}>
+                <image src='/like1.png'width={1} height={1} alt='image'/>
+                <h1>Liked videos</h1>
+            </div>
+            <div className={styles.sub}>
+                <h1>Subscriptions</h1>
             </div>
 
         </div>

@@ -1,0 +1,83 @@
+.SideBar{
+    width: 95px;
+    height: 90vh;
+    overflow-x: hidden;
+}
+.items{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.hom{
+    padding-left: 20px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    margin-bottom: 10px;
+}
+.hom:hover{
+border-radius: 5px;
+    background-color: rgb(241, 238, 238);
+}
+
+.hom h1{
+    font-size: small;
+    font-weight: 400;
+}
+
+.hom img{
+    width: 30px;
+}
+
+.shrt{
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    cursor: pointer;}
+
+    .shrt h1{
+    font-size: small;
+    font-weight: 400;
+    }
+.shrt:hover{
+    background-color: rgb(241, 238, 238);
+    border-radius: 5px;
+}
+.play{
+    padding-left: 20px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+}
+.play img{
+width: 50px;
+padding-left: 20px
+};
+.play h1{
+    padding-right: 50px;
+    font-size: small;
+}
+.play:hover{
+    background-color: rgb(241, 238, 238);
+    border-radius: 5px;
+}
+
+.homes{
+    padding: 10px 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.homes h1{
+    padding-left: 14px;
+    font-size: small;
+}
+.homes:hover{
+    background-color:rgb(241, 238, 238);
+    border-radius: 7PX;
+}
