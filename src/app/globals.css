@@ -20,3 +20,73 @@
   gap: 15%;
 
 }
+
+.search img{
+  display: flex; 
+  align-items: center;                                                                         
+  justify-content: flex-end;
+  margin-left: 2em;
+}
+.image_page{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 15px;
+}
+.image_page1{
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  background-color: rgb(205, 202, 202);
+  border-radius: 100%;
+}
+.image_page1 img{
+width:35px;
+height:35px;
+padding-left:7px;
+padding-right: 7px;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
+.video{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.video img{
+width:30px;
+height:30px;
+margin-left:50px;
+}
+.note{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+  justify-content: flex-end;
+}
+.nig{
+  display: flex;
+  position: absolute;
+  left: 170px;
+  top:15px;
+}
+.nig h1{
+  font-size:xx-small;
+}
+.note :hover{
+background-color: rgb(201, 199, 199);
+border-radius: 100%;
+}
+.ham{
+padding-left: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+border-radius: 100%;
+}
+.ham:hover{
+background-color: darkgray;
+cursor: pointer;
+}

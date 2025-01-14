@@ -2,7 +2,7 @@
 
 import React, {useContext } from 'react'
 import { SearchVideos } from '@/Utils/fetchData'
-import { useState, useContext } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import { SearchContext } from '@/Context/SearchContext'
 

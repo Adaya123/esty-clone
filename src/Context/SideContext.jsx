@@ -1,20 +1,20 @@
 "use client"
 
-import { Children, createContext,useState } from "react"
+import { createContext,useState } from "react"
 
 
 export const SideContext = createContext();
-export const SideProvider =({Children}) => {
+export const SideProvider =({children}) => {
     const [toggle, setToggle] = useState(false)
     
 
     return(
         <SideContext.Provider value={{toggle, setToggle}}>
-        {Children}
+        {children}
         </SideContext.Provider>
     )
 }
 
 
 
-export default SideContext
+export default SideContext    

@@ -23,15 +23,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <SearchProvider>
-      <SideProvider>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+        >
+          <SearchProvider>
+        <SideProvider>
         {children}
-      </body>
       </SideProvider>
       </SearchProvider>  
+      </body>
     </html>
   );
 }

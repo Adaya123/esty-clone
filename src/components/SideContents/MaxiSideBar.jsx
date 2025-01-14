@@ -7,16 +7,16 @@ const MaxiSideBar = () => {
     return (
         <div className={styles.SideBar}>
             <div className={styles.gen}>
-                <image src='/home.png'width={35} height={35} alt='image'/>
+                <Image src= 'icons8-home-24(1).png' width={20} height={20} alt="image"/>
                 <h1>Home</h1>
             </div>
 
             <div className={styles.home}>
-                <image src='/shorts.png'width={30} height={30} alt='image'/>
+                <image src='/icon8-youtube-shorts-24.png'width={30} height={30} alt='image'/>
                 <h1>Shorts</h1>
             </div>
             <div className={styles.homs}>
-                <image src='/playlist.png'width={35} height={35} alt='image'/>
+                <image src='/icon8-playlist-24.png'width={35} height={35} alt='image'/>
                 <h1>Subscription</h1>
             </div>
             <div className={styles.min}>

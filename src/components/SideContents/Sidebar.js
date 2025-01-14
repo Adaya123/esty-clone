@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import MiniSideBar from './MinisideBar'
 import MaxiSideBar from './MaxiSideBar'
-import {SideContext} from 'react'
+import { SideContext} from '@/Context/SideContext'
 import { useContext } from 'react'
 
 const Sidebar = () => {
