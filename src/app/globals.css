@@ -2,30 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-container{
+.page_container{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding:  0 5vw;
+  padding: 0 1vw;
 }
-/* .page-container div{
-  display: flex;
-  gap: 15px;
-  margin-left: 28px;
 
-} */
-.com{
-  display: flex;
+.con{
+  display:flex;
   justify-content: space-between;
-  gap: 15%;
-
+  gap:5px;
 }
-
 .search img{
   display: flex; 
-  align-items: center;                                                                         
+  align-items: center; 
+  align-content: center;                                                                        
   justify-content: flex-end;
-  margin-left: 2em;
+  margin-top: 6px;
 }
 .image_page{
   display: flex;
